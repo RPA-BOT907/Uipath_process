@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bpr:release xmlns:bpr="http://www.blueprism.co.uk/product/release">
+    <bpr:name>Production</bpr:name>
+    <bpr:release-notes />
+    <bpr:created>2023-02-22 11:03:32Z</bpr:created>
+    <bpr:package-id>8</bpr:package-id>
+    <bpr:package-name>RPA_Devops</bpr:package-name>
+    <bpr:user-created-by>admin</bpr:user-created-by>
+    <bpr:contents count="2">
+        <process id="16bd9649-fbed-4713-8643-86f2b5f46338" name="pro" published="true" xmlns="http://www.blueprism.co.uk/product/process"><process name="pro" version="1.0" bpversion="7.0.1.49890" narrative="" byrefcollection="true"><view><camerax>0</camerax><cameray>0</cameray><zoom version="2">1.25</zoom></view><preconditions /><endpoint narrative="" /><stage stageid="e1b383af-a1e4-4f2e-9ff1-150ec337f950" name="Start" type="Start"><display x="15" y="-105" /></stage><stage stageid="fbd7aad5-be50-4cc1-ab83-88a27fa57402" name="End" type="End"><display x="15" y="90" /></stage><stage stageid="e17778f4-4188-4ba0-964d-b576f441dd2f" name="Stage1" type="ProcessInfo"><display x="-195" y="-105" w="150" h="90" /></stage></process></process>
+        <process-group id="c82b4d0d-30d1-4b47-94a2-bc56e5d71c59" name="Default" isDefaultGroup="True" xmlns="http://www.blueprism.co.uk/product/process-group">
+            <members>
+                <process id="16bd9649-fbed-4713-8643-86f2b5f46338" />
+            </members>
+        </process-group>
+    </bpr:contents>
+</bpr:release>
